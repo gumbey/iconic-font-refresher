@@ -26,13 +26,30 @@ html {
   text-align: center;
 }
 
+
+
+.twit-c {
+  color:#4099FF ;
+}
+.fac-c {
+  color:#3B5998 ;
+}
+.twi-c {
+  color:#6441A5 ;
+}
+.ins-c {
+  color:#3f729b ;
+}
+.beh-c {
+  color:#1769ff ;
+}
+
 .btn{
   text-align: center;
   font-size: 3em;
   font-weight: bold;
   text-decoration: none;
   padding: 1em 1em;
-  border-radius: 5px;
   display: inline-block;
   margin: 0.5em;
 }
@@ -40,6 +57,7 @@ html {
 .btn:hover,
 .btn:active,
 .btn:focus{
+  background-color: black;
 }
 
 .btn i{
@@ -47,3 +65,10 @@ html {
   padding-right: 0.25em;
 }
 
+.btn:hover .i-twitter,
+.btn:hover .i-facebook,
+.btn:hover .i-twitch,
+.btn:hover .i-instagram,
+.btn:hover .i-behance{
+  color: white;
+}
